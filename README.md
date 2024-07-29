@@ -45,8 +45,11 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "RequireAssertRevert" contract from the dropdown menu, and then click on the "Deploy" button.
 
 Once the contract is deployed, you can interact with it by calling these function; `setValue`, `checkValue` and `resetValue`.
+
 `setValue`: Sets the value, ensuring it is greater than zero.
+
 `checkValue`: Checks the value, ensuring it is valid.
+
 `resetValue`: Resets the value and reverts the transaction with an error message.
 
 ## Authors
